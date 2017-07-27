@@ -1,0 +1,5 @@
+/Users/classa/Desktop/Liu/Liu/bin/Debug/Liu.dll
+/Users/classa/Desktop/Liu/Liu/bin/Debug/Liu.pdb
+/Users/classa/Desktop/Liu/Liu/obj/Debug/Liu.csproj.CoreCompileInputs.cache
+/Users/classa/Desktop/Liu/Liu/obj/Debug/Liu.dll
+/Users/classa/Desktop/Liu/Liu/obj/Debug/Liu.pdb
