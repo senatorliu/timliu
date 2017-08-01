@@ -10,16 +10,18 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Liu.Droid.Login.KeyinUserName
+namespace Liu.Droid.MainFlow
 {
-    [Activity(Label = "LiginActivity")]
-    public class LiginActivity : Activity
+    [Activity(Label = "MasterActivity")]
+    public class MasterActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+            SetContentView(Resource.Layout.masterView);
+            var button = FindViewById<Button>(Resource.Id.login_loginview_btnConfirm);
         }
     }
 }

@@ -47,6 +47,9 @@ namespace Liu.Droid
 			// aapt resource value: 0x7f050000
 			public const int myButton = 2131034112;
 			
+			// aapt resource value: 0x7f050001
+			public const int mywebview_btngo = 2131034113;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -61,10 +64,19 @@ namespace Liu.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int login_keyinusername_loginview = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int masterView = 2130903041;
+			public const int login_loginview = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int masterView = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int mywebview = 2130903044;
 			
 			static Layout()
 			{
