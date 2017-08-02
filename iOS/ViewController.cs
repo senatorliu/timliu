@@ -16,6 +16,16 @@ namespace Liu.iOS
         {
             base.ViewDidLoad();
 
+            // Event
+            var workerEvent = new EventWebWorker();
+
+            workerEvent.HtmlStringReceived += (object sender, HtmlReceivedEventArgs e) => {
+                WriteLine($"event html:{ e.Html }");
+                
+            };
+
+            workerEvent.DownloadHtmlStringWithEvent(url);
+
             // Perform any additional setup after loading the view, typically from a nib.
             Button.AccessibilityIdentifier = "myButton";
             Button.TouchUpInside += delegate

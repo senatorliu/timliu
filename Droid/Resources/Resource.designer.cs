@@ -44,11 +44,17 @@ namespace Liu.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int master_masterview_useritemview_lbdescription = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int master_masterview_useritemview_lbuser = 2131034113;
+			
 			// aapt resource value: 0x7f050000
 			public const int myButton = 2131034112;
 			
-			// aapt resource value: 0x7f050001
-			public const int mywebview_btngo = 2131034113;
+			// aapt resource value: 0x7f050003
+			public const int mywebview_btngo = 2131034115;
 			
 			static Id()
 			{
@@ -73,10 +79,13 @@ namespace Liu.Droid
 			public const int Main = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int masterView = 2130903043;
+			public const int master_masterview_useritemview = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int mywebview = 2130903044;
+			public const int masterView = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int mywebview = 2130903045;
 			
 			static Layout()
 			{

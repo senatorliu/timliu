@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#cc2222"
+    >
+    <TextView
+        android:id="@+id/master_masterview_useritemview_lbuser"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#6ca887"
+        />
+    <TextView
+        android:id="@+id/master_masterview_useritemview_lbdescription"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#99c5ff"
+        />
+    <Button
+        android:id="@+id/mywebview_btngo"
+        android:text="GO"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <EditText
+
+        android:id="@+id/mywebview_txturl"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/mywebview_btngo" />
+</LinearLayout>
